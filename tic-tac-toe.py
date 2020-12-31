@@ -13,8 +13,6 @@ screen = pygame.display.set_mode([500, 500])
 WIDTH, HEIGHT = screen.get_size()
 screen.fill((255, 255, 255))
 
-x = "awesome"
-
 
 def makeMove(pos, opp, mask, space):
     
